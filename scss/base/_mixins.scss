@@ -1,0 +1,36 @@
+@mixin margen-y-padding($margen, $padding) {
+    margin: $margen;
+    padding: $padding;
+}
+  
+
+.cuadrado {
+    background-color: #ffffff;
+    color: #000000;
+    @include margen-y-padding(30px, 30px); 
+    margin-bottom: 20px;
+    text-align: left; 
+    border: 5px solid #000000; 
+
+h2 {
+      margin-bottom: 15px;
+      text-align: center; 
+      text-decoration: underline;
+    }
+  
+ul {
+      list-style-type: none;
+      padding: 0;
+      
+li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
+@media (max-width: 768px) {
+    .cuadrado {
+      @include margen-y-padding(20px, 20px); 
+    }
+  }
+  

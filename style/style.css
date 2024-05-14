@@ -1,0 +1,166 @@
+footer {
+  position: unset;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4e6788;
+  color: rgba(27, 4, 4, 0.7607843137);
+  text-align: center;
+  padding: 5px;
+}
+
+nav {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 10px;
+  border-right: 1px solid black;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav.conteiner {
+  display: grid;
+  background-color: black;
+  margin: 1%;
+  padding: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 100%;
+  height: 300px;
+  margin: 0%;
+}
+
+.header {
+  display: flex;
+}
+
+body {
+  background-color: #4e6788;
+}
+
+.titulo {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.carousel-inner,
+.carousel-item {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 100%;
+}
+
+@media (max-width: 1400px) {
+  .carousel-inner,
+  .carousel-item {
+    max-height: 400px;
+  }
+}
+@media (min-width: 1401px) {
+  .carousel-inner,
+  .carousel-item {
+    max-height: 600px;
+  }
+}
+section div i {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;
+  text-decoration-color: #080808;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.tarjeta {
+  border: 2px solid black;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+}
+.tarjeta ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tarjeta ul li {
+  padding: 5px;
+}
+.tarjeta ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cuadrado {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 30px;
+  padding: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  border: 5px solid #000000;
+}
+.cuadrado h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: underline;
+}
+.cuadrado ul {
+  list-style-type: none;
+  padding: 0;
+}
+.cuadrado ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .cuadrado {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

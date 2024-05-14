@@ -1,0 +1,53 @@
+.logo{
+    width: 100%;
+    height: 300px;
+    margin: 0%;
+}
+
+
+.header{
+    display: flex;
+}
+
+body {
+    background-color: #4e6788;
+}
+
+.titulo{
+    margin-top: 25px;  
+    margin-bottom: 25px;
+}
+
+.carousel-inner,
+.carousel-item {
+    width: 100%;
+    max-height: 400px; 
+    overflow: hidden; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+    max-height: 100%; 
+}
+
+@media (max-width: 1400px) {
+    .carousel-inner,
+    .carousel-item {
+        max-height: 400px; 
+    }
+}
+
+@media (min-width: 1401px) {
+    .carousel-inner,
+    .carousel-item {
+        max-height: 600px; 
+    }
+}
+
+
+section div i{
+    text-align: center;
+    }
+    
